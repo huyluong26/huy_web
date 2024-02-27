@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: green;
+    margin: 10px 15px 10px 15px;
+    text-align: center;
+    width: 98%;
+    border: 1px solid #e4d4d4;
+
+}
+.bang{
+    background-color: white;
+    border: dashed 2px white;
+}
+.name{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    width: 98%;
+}
+.h1{
+    color:rgb(186, 248, 243);
+    background-color: rgb(233, 126, 122);
+    border: dashed 1px red;
+    width: 750px; height: 50px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px 15px 20px 15px;
+    font-weight: bold;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px;
+}
+.root li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+
+}
+.menu_web{
+    background-color: aqua;
+    width: 98%;
+    height: 50px;
+    display: block;
+    margin: 0px auto;
+
+}
+.root li a:hover{
+    background-color: aqua; color: blue;
+}
+.submenu{width: 200px;
+background-color:aquamarine;
+color: purple;
+min-height: 80px;
+display: none;
+position: absolute;}
+.submenu li{list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: purple;
+    display:block;
+    border: 0px #ccc solid;
+    line-height: 50px;
+    text-align: 15px;
+
+}
+.root li:hover .submenu{
+    display: block;
+    background-color: rgb(56, 108, 206);
+    color: white;
+    transition: ease-in-out 0.35s;
+}
+.submenu li a:hover{
+    background-color: aquamarine;
+    color: orange;
+    transform: ease-in-out;
+}
+
+.submenu1{width: 200px;
+    background-color:aquamarine;
+    color: purple;
+    min-height: 80px;
+    display: none;
+    position: absolute;}
+    .submenu1 li{list-style: none;}
+    .submenu1 li a{
+        text-transform: none;
+        text-decoration: none;
+        color: purple;
+        display:block;
+        border: 0px #ccc solid;
+        line-height: 50px;
+        text-align: 15px;
+    
+    }
+    .root li:hover .submenu1{
+        display: block;
+        background-color: rgb(56, 108, 206);
+        color: white;
+        transition: ease-in-out 0.35s;
+    }
+    .submenu1 li a:hover{
+        background-color: aquamarine;
+        color: orange;
+        transform: ease-in-out;
+    }
+    .bang tr td .giacu{ color: red;}
+    .bang tr td .giamoi{color: blue;}
